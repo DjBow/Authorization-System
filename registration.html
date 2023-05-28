@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Регистрация</title>
+</head>
+<body>
+
+    <form class="whole_block" action="reg.php" method="post">
+
+        <label class="title" for="login">Регистрация</label>
+
+        <div class="block">
+            <label class="label_top" for="login">Логин</label>
+            <input class="input_field" type="text" name="login" autofocus placeholder="Придумайте логин">
+        </div>
+        
+        <div class="block">
+            <label class="label_top" for="password">Пароль</label>
+            <input class="input_field" type="text" name="password" autofocus placeholder="Придумайте пароль">
+        </div>
+
+        <button class="button" type="submit" name="register">
+            Зарегестрироваться</button>
+
+    </form>
+    
+</body>
+</html>

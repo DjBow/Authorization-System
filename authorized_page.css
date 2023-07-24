@@ -1,0 +1,25 @@
+video {
+    width: 100%;
+    background: black;
+}
+
+html {
+    background: black;
+    font-family: fantasy;
+}
+
+p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-family: fantasy;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: transform .2s;
+    display: flex;
+    justify-content: center;
+}
